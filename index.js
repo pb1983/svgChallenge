@@ -1,9 +1,11 @@
 const fs = require("fs")
-let SVG = require("./lib/svg")
+const SVG = require("./svg.js")
 
-let example = new SVG("AND", "green", "triangle", "yellow");
+let example = new SVG("blue", "green", "PJB", "triangle");
 
-fs.writeFile("shape.svg", example.markUp, function(err){
+fs.writeFile("shape.svg", example.shape, function(err){
     if(err)
     console.log(err)
 })
+
+console.log(example);
