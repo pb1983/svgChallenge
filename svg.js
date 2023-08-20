@@ -47,4 +47,6 @@ class SVG extends Shape {
 }
 
 
+
+
 module.exports = SVG;
