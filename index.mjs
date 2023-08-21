@@ -3,6 +3,7 @@ import fs from "fs/promises";
 import pkg from './svg.js';
 const SVG = pkg;
 
+//Creates prompt that allows the user to enter the characters, text color, background color, and shape for the SVG.
 
 let {characters, text_color, shape_choice, background_color} = await
 
@@ -35,6 +36,7 @@ let {characters, text_color, shape_choice, background_color} = await
         ])
 
     
+        //Creates the SVG file with information provided by the user
 
         let example = new SVG(`${background_color}`, `${text_color}`, `${characters}`, `${shape_choice}`);
 

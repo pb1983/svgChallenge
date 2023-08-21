@@ -1,6 +1,6 @@
 const { Shape, Circle, Square, Triangle } = require("./lib/shapes.js");
 
-
+//SVG class. "if" statement in the "shape" parameter finalizes the template for the SVG file. 
 
 
 class SVG extends Shape {
