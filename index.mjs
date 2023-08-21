@@ -44,5 +44,12 @@ let {characters, text_color, shape_choice, background_color} = await
             if(err)
             console.log(err)
         })
+
+
+        .then(() => {
+         console.log("Generated 'logo.svg");
+         });
+       
+      
+    
         
-        console.log("Generated 'logo.svg'");
